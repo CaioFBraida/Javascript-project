@@ -1,0 +1,67 @@
+.frase_termina_jogo {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    background-color: cornflowerblue;
+}
+
+h1,
+h2,
+h4 {
+    text-align: center;
+}
+
+.locais {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.locais>div {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.div_cartas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deck_jogador>li {
+    border: solid 2px black;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.deck_jogador>li.ativa {
+    background-color: black;
+    color: aliceblue;
+}
+
+.cartas_botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao_iniciar,
+.botao_proxima_rodada,
+.botao_recarregar {
+    margin: 70px 0px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
